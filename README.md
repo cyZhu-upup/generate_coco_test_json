@@ -1,2 +1,4 @@
 # generate_coco_test_json
 生成没有标签的COCO格式测试集的json
+
+修改generate_json.py中对应的位置即可
