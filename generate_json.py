@@ -9,7 +9,7 @@ test_json = os.path.join(root, 'test')  # test image root
 out_file = os.path.join(root, 'test.json')  # test json output path 生成json的位置  
 
 data = {}
-data['categories'] = [{'id': 1, 'name': 'pig', 'supercategory': 'none'}] # 数据集的类别
+data['categories'] = [{'id': 1, 'name': 'xx', 'supercategory': 'none'}] # 数据集的类别
 idx = 100  # 自己设定 id
 images = []
 for name in os.listdir(test_json):
